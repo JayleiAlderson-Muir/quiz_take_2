@@ -8,9 +8,9 @@ namespace quizffs
 {
     public class question2
     {
-        public static void q2()
+        public static int q2(int score)
         {
-            int score = 0;
+           
             Console.WriteLine("Question 2");
             Console.Write("What is the temperature -40 degrees Celsius in Fahrenheit?:  ");
             int answer2 = Convert.ToInt32(Console.ReadLine());
@@ -25,6 +25,7 @@ namespace quizffs
             }
             Console.WriteLine($"Your score is {score}\n");
             Console.ReadLine();
+            return score;
         }
     }
 }
