@@ -1,12 +1,15 @@
 ﻿using System;
+using System.Threading;
 
 namespace quizffs
 {
-    internal class quiz
+    public class quiz
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             Console.WriteLine("Hello World!");
+            Console.ReadLine();
+
         }
     }
 }
