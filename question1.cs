@@ -9,10 +9,10 @@ namespace quizffs
 {
     public class question1
     {
-        public static void Question1()
+        public static int Question1(int score)
         {
             const string answer1 = "elephant";
-            int score = 0;
+            //int score = 0;
             Console.WriteLine("Question 1");
             Console.Write("What is the world’s largest land mammal? ");
             string guess1 = Console.ReadLine();
@@ -29,6 +29,7 @@ namespace quizffs
             Console.ReadLine();
             Console.Clear();
             Thread.Sleep(1000);
+            return score;
         }
     
     }
