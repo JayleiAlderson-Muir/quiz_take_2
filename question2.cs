@@ -8,7 +8,7 @@ namespace quizffs
 {
     public class question2
     {
-        public static void question2()
+        public static void q2()
         {
             int score = 0;
             Console.WriteLine("Question 2");
