@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace quizffs
 {
-    internal class question3
+    public class question3
     {
-        static void Main(string[] args)
+        public static void Question3()
         {
             string answer;
             int score = 0;
