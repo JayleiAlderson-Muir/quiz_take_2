@@ -7,9 +7,9 @@ namespace quizffs
     {
         public static void Main()
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadLine();
-
+            question1.Question1(); //calling question 1 class
+            question2.q2(); //calling question 2 class
+            question3.Question3(); //calling question 3 class
         }
     }
 }
