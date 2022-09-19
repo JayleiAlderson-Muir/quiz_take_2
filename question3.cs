@@ -8,10 +8,9 @@ namespace quizffs
 {
     public class question3
     {
-        public static void Question3()
-        {
+        public static int Question3(int score)
+        { 
             string answer;
-            int score = 0;
 
             Console.WriteLine("Question 3");
             Console.WriteLine("Where is Otago Polytechnic?");
@@ -28,6 +27,7 @@ namespace quizffs
             }
             Console.WriteLine($"Your score is {score}");
             Console.ReadLine();
+            return score;
         }
     }
 }
